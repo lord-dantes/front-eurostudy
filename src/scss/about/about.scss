@@ -4,14 +4,19 @@
 		& h2{
 			max-width: 297px;			
 			text-align: center;
+			margin:0 auto 10px;
 		}
 	}
 	&-content{
 		max-width: 467px;
 		margin-right: auto;
+		margin-bottom: 56px;
+	}
+	&-box{
+		position: relative;
 	}
 	&-title{
-		margin:0 auto 10px;
+		margin:0 auto 20px;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 24px;
@@ -33,5 +38,175 @@
 		line-height: 16px;
 		color: $gray;
 		margin:0 auto 37px 0;
+	}
+	&-items{
+		padding-left: 45px;
+		& li{
+			position: relative;
+			margin-bottom: 15px;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: $gray;
+			&::before{
+				content: "";
+				position: absolute;
+				top: 4px;
+				left: -20px;
+				width: 5px;
+				height: 5px;
+				background: $gray;
+				border-radius: 50%;
+			}
+			& span{
+				color: $darkred;
+			}
+			&:last-child{
+				font-weight: bold;
+			}
+		}
+	}
+	&-photo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 15px;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		color: $darkred;
+		& img{
+			width: 100%;
+			margin-right: 30px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		&--second{	
+			& img{
+				max-width: 218px;
+				margin-right: 30px;
+				width: 100%;
+			}
+		}
+	}
+	&-aside{
+		position: absolute;
+		top: 0;
+		right: 0;
+		&-contact{
+			margin-bottom: 5px;
+			& p{
+				font-weight: bold;
+				font-size: 10px;
+				line-height: 12px;
+				margin-bottom: 5px;
+				color: $black;
+			}
+			& a{
+				display: block;
+				width: 100%;
+				font-weight: normal;
+				font-size: 10px;
+				line-height: 12px;
+				color: $black;
+				&:last-child{
+					color:$darkred;
+				}
+			}
+		}
+		&-item{
+			padding:15px;
+			max-width: 218px;
+			background: #FFFFFF;
+			box-shadow: 3px 4px 24px rgba(153, 153, 153, 0.25);
+			border-radius: 2px;
+			margin-bottom: 20px;
+		}
+		& label{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 12px;
+			text-align: center;
+			margin-bottom: 5px;
+			color: $gray;
+			& input{
+				margin-right: 3px;
+			}
+		}
+		&-info{
+			margin:5px 0px 10px;
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 12px;
+			text-align: center;
+			color: $gray;
+			& span{
+				color: $darkred;
+			}
+		}
+		&-title{
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 16px;
+			padding-bottom: 6px;
+			margin-bottom: 10px;
+			border-bottom: solid .5px $lightgray;
+			position: relative;
+			color: $black;
+			&::before{
+				content:"";
+				position: absolute;
+				bottom: -1px;
+				left: 0;
+				max-width: 36px;
+				width: 100%;
+				height: 1px;
+				background: $darkred;
+			}
+		}
+		& input[type="submit"]{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: bold;
+			font-size: 10px;
+			line-height: 12px;
+			color: #fff;
+			width: 100%;
+			height: 32px;
+			border: 0;
+			max-width: 137px;
+			margin: 10px auto 0;
+			background: $darkred;
+			border-radius: 60px;
+			&:focus{
+				outline: 0;
+			}
+		}
+		& input[type="text"]{
+			width: 100%;
+			padding:9px 10px;
+			font-weight: normal;
+			font-size: 10px;
+			text-align: left;
+			color: $black;
+			margin-bottom: 5px;
+			border: 1px solid $lightgray;
+			&:focus{
+				outline:0;
+			}
+			&::placeholder{
+				font-weight: normal;
+				font-size: 10px;
+				line-height: 12px;
+				text-align: left;
+				color: #C4C4C4;
+			}	
+		}
 	}
 }
