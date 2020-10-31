@@ -22,9 +22,22 @@
 	&_wrapper{
 		margin-bottom: 30px;
 	}
-	&-region{
-		padding: 17px;
+	&-item{
+		width: 100%;
 		max-width: 155px;
+		&s{
+			max-width: 375px;
+			justify-content: center;
+			margin:0 auto;
+		}
+	}
+	&-info{
+		min-height: 154px;
+		padding:16px 13px;
+	}
+	&-region{
+		font-size: 13px;
+		padding: 17px 0px;
 	}
 }
 .features{
@@ -40,6 +53,11 @@
 		margin-right: 30px;
 		justify-content: flex-start;
 		height: auto;
+		&s{
+			max-width: 475px;
+			margin:0 auto;
+			justify-content: center;
+		}
 		& p{
 			word-break: break-word;
 		}

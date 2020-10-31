@@ -1,0 +1,37 @@
+.about{
+	&__wrapper{
+		padding: 38px 0px 40px;
+		& h2{
+			max-width: 297px;			
+			text-align: center;
+		}
+	}
+	&-content{
+		max-width: 467px;
+		margin-right: auto;
+	}
+	&-title{
+		margin:0 auto 10px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		color: $black;
+	}
+	&-subtitle{
+		margin:0 auto 20px;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		text-align: center;
+		color: $black;
+	}
+	&-info{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: $gray;
+		margin:0 auto 37px 0;
+	}
+}

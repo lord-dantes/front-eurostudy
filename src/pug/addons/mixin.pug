@@ -1,0 +1,8 @@
+mixin titlePage(title)
+	section.title__wrapper
+		.container
+			h1= title
+			.title__breadcrumbs 
+				a(href="/") Eurostudy
+					img(src="img/icons/breadcrumbs-home.svg", alt="")
+				| / #[a(href="")= title]

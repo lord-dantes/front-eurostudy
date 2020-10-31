@@ -60,6 +60,8 @@
 	margin-left: -1px;
 	margin-top: -1px;
 	border: solid 1px $lightgray;
+	background: $light2gray;
+	max-width: 179px;
 }
 .contact-region {
 	font-weight: bold;
@@ -67,14 +69,15 @@
 	line-height: 16px;
 	text-align: center;
 	color: $black;
-	padding: 17px 27px;
+	padding: 17px 0px;
 	border-bottom: solid 1px $lightgray;
+	background: #fff;
 }
 .contact-info {
 	display: flex;
 	flex-direction: column;
-	padding: 16px 26px;
-	background: #F6F6F6;
+	padding: 16px 25px;
+	background: transparent;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
@@ -82,11 +85,12 @@
 	a {
 		text-decoration: none;
 		color: $darkred;
+		margin-bottom: 5px;
 	}
 }
 .features__wrapper {
 	padding: 40px 0px;
-	background: #F6F6F6;
+	background: $light2gray;
 }
 .features-title {
 	font-weight: bold;
