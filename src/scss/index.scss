@@ -2,10 +2,12 @@
 // page
 @import 'home/home';
 @import 'about/about';
+@import 'study/study';
 // media
 @media screen and (max-width: 767px){
 	@import 'addons/base-767';
 	// page
 	@import 'home/home-767';
 	@import 'about/about-767';
+	@import 'study/study-767';
 }

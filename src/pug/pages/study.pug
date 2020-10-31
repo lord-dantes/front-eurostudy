@@ -1,0 +1,95 @@
+extends /addons/base.pug
+block content
+	+titlePage('Учеба в Польше')
+	section.study__wrapper
+		.container
+			.study__box
+				.study-content
+					h2.study-title Высшее и среднее техническое образование в Польше.
+					p.study-subtitle #[span Учеба в Польше:] Платное и бесплатное обучение. Условия и стоимость поступления. Каталоги учебных заведений. Проживание
+					p.study-info Желаете получить качественное европейское образование? Выбирайте обучение в Польше! #[br]#[br]Открывайте для себя новые возможности и перспективы! #[br]#[br] Поступайте в техникумы после 9-10 класса и ВУЗы Польши после 11 класса. #[br]#[br] Мечтайте, развивайтесь, учитесь и живите в преуспевающем развитом государстве! #[br]#[br]#[span С Евростади Ваша мечта осуществится - Мы поможем Вам поступить в практически любой ВУЗ или техникум в Польше]
+				form.about-aside-item
+					p.about-aside-item-title Запишись на польский!
+					input(type="text" placeholder="Введите Ваше имя")
+					input(type="text" placeholder="Введите номер телефона")
+					p.about-aside-item-info Курсы польского языка #[span ONLINE] #[br]Уровень А1 (с нуля) по цене = #[span 2800 грн!]
+					label
+						input(type="radio" name="date")
+						| 14.10.2020 - Пн, Ср, Пт - 18.30-20.30
+					label
+						input(type="radio" name="date")
+						| 15.10.2020 - Вт, Чт - 18.30-20.30
+					label
+						input(type="radio" name="date")
+						| 23.10.2020 - Пн, Ср, Пт - 16.15-18.15
+					input(type="submit" value="Записаться на курсы")
+	section.study-info__wrapper
+		.container
+			.study-info-title Высшее образование в Польше. Как поступить в ВУЗ Польши
+			.owl-carousel.owl-theme.study-carousel
+				.study-card
+					img(src="img/carousel/image1.jpg")
+					.study-card-info
+						p Условия поступления
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image2.jpg")
+					.study-card-info
+						p Стоимость поступления
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image3.jpg")
+					.study-card-info
+						p Каталог ВУЗов
+						a Подробнее
+			.study-info-title Среднее техническое образование в Польше. Как поступить в техникум Польши
+			.owl-carousel.owl-theme.study-carousel--second
+				.study-card
+					img(src="img/carousel/image4.jpg")
+					.study-card-info
+						p Условия поступления
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image5.jpg")
+					.study-card-info
+						p Стоимость поступления
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image6.jpg")
+					.study-card-info
+						p Каталог техникумов
+						a Подробнее
+			.study-info-title Дополнительная информация
+			.study-cards
+				.study-card
+					img(src="img/carousel/image7.jpg")
+					.study-card-info
+						p Бесплатное обучение
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image8.jpg")
+					.study-card-info
+						p Студенческая виза
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image9.jpg")
+					.study-card-info
+						p Общежития в Польше
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image10.jpg")
+					.study-card-info
+						p Присяжный перевод
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image11.jpg")
+					.study-card-info
+						p Стоимость питания
+						a Подробнее
+				.study-card
+					img(src="img/carousel/image12.jpg")
+					.study-card-info
+						p Общественный транспорт
+						a Подробнее
+	section.study-contact
+		.container

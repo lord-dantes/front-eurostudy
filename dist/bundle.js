@@ -14,7 +14,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_nav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nav.js */ "./src/js/nav.js");
 /* harmony import */ var _js_nav_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_nav_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ "./src/scss/index.scss");
+/* harmony import */ var _js_studyCarousel_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/studyCarousel.js */ "./src/js/studyCarousel.js");
+/* harmony import */ var _js_studyCarousel_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_studyCarousel_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/index.scss */ "./src/scss/index.scss");
+
 
 
 
@@ -57,6 +60,62 @@ for (var i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/***/ }),
+
+/***/ "./src/js/studyCarousel.js":
+/*!*********************************!*\
+  !*** ./src/js/studyCarousel.js ***!
+  \*********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements:  */
+/***/ (() => {
+
+var firstCarousel = $('.study-carousel');
+var secondCarousel = $('.study-carousel--second');
+var threeCarousel = $('.study-carousel--three');
+firstCarousel.owlCarousel({
+  items: 3,
+  mouseDrag: false,
+  touchDrag: false,
+  loop: false,
+  dots: false,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1,
+      mouseDrag: true,
+      touchDrag: true,
+      loop: false,
+      dots: true,
+      nav: true
+    },
+    767: {
+      items: 3
+    }
+  }
+});
+secondCarousel.owlCarousel({
+  items: 3,
+  mouseDrag: false,
+  touchDrag: false,
+  loop: false,
+  dots: false,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1,
+      mouseDrag: true,
+      touchDrag: true,
+      loop: false,
+      dots: true,
+      nav: true
+    },
+    767: {
+      items: 3
+    }
+  }
+});
 
 /***/ }),
 

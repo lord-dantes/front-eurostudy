@@ -1,5 +1,46 @@
 .about{
 	&-aside{
 		position: static;
+		&-item{
+			margin:0 auto 20px;
+		}
 	}
+	&-content{
+		max-width: unset;
+	}
+	&-photo{
+		margin-bottom: 10px;
+		&__box{
+			max-width: 375px;
+			margin:0 auto;
+		}
+		& img{
+			max-width: 97px;
+			margin-right: auto;
+		}
+		&--second{
+			flex-wrap: wrap;
+			& img{
+				max-width: 145px;
+				&:nth-child(2){
+					max-width: unset;
+					margin-top: 10px;
+					width: 100%;
+					order: 3;
+				}
+				&:nth-child(3){
+					order: 2;
+				}
+			}
+		}
+		&--three{
+			& img{
+				max-width: unset;
+			}
+		}
+	}
+}
+p.about-photo{
+	max-width: 280px;
+	margin:20px auto 30px;
 }
