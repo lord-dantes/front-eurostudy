@@ -1,0 +1,8 @@
+@import 'addons/base';
+// page
+@import 'home/home';
+// media
+@media screen and (max-width: 767px){
+	@import 'addons/base-767';
+	@import 'home/home-767';
+}
