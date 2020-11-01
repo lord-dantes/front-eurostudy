@@ -3,6 +3,7 @@
 @import 'home/home';
 @import 'about/about';
 @import 'study/study';
+@import 'admission/admission';
 // media
 @media screen and (max-width: 767px){
 	@import 'addons/base-767';
@@ -10,4 +11,5 @@
 	@import 'home/home-767';
 	@import 'about/about-767';
 	@import 'study/study-767';
+	@import 'admission/admission-767';
 }

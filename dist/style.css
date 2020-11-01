@@ -752,6 +752,536 @@ body {
   width: 100%;
 }
 
+.admission-howto__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.admission-howto__wrapper {
+  padding: 40px 0;
+}
+.admission-howto__wrapper h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+}
+.admission-howto__wrapper ul {
+  max-width: 317px;
+  margin-bottom: 20px;
+}
+.admission-howto__wrapper ul li {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+  margin-bottom: 10px;
+}
+.admission-howto__wrapper a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .admission-howto__wrapper a {
+    padding: 16px 14px;
+  }
+}
+.admission-terms__wrapper p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+}
+.admission-terms__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+.admission-terms-content {
+  max-width: 327px;
+}
+.admission-terms-content li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+}
+.admission-terms-content li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-terms-content li:last-child {
+  margin-bottom: 30px;
+}
+.admission-terms-content li span {
+  font-weight: bold;
+  color: #B9262F;
+}
+.admission-terms-content a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .admission-terms-content a {
+    padding: 16px 14px;
+  }
+}
+.admission-terms-info {
+  max-width: 342px;
+}
+.admission-terms-info p:first-child, .admission-terms-info p:last-child {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+}
+.admission-terms-info p:last-child {
+  margin-bottom: 0;
+}
+.admission-terms-info ul li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.admission-terms-info ul li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-terms-info ul li:last-child {
+  margin-bottom: 20px;
+}
+.admission-doc__wrapper {
+  padding-bottom: 40px;
+}
+.admission-doc-title {
+  max-width: 360px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+}
+.admission-doc-subtitle {
+  max-width: unset;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #B9262F;
+  margin-bottom: 40px;
+}
+.admission-doc__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.admission-doc-content {
+  max-width: 467px;
+}
+.admission-doc-content a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .admission-doc-content a {
+    padding: 16px 14px;
+  }
+}
+.admission-doc-content ul li {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 10px;
+}
+.admission-doc-content ul li span {
+  color: #B9262F;
+}
+.admission-doc-content p {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+}
+.admission-doc-content p:nth-child(3) {
+  margin-bottom: 30px;
+}
+.admission-doc-photo {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.admission-doc-photo img {
+  margin-bottom: 20px;
+}
+.admission-doc-quotes {
+  padding: 40px 36px 36px 36px;
+  border-radius: 20px;
+  border: solid 2px #B9262F;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #6E6E6E;
+  padding: 40px 80px;
+}
+.admission-doc-quotes span {
+  font-size: 12px;
+  line-height: 14px;
+  font-style: normal;
+}
+.admission-doc-quotes span {
+  font-size: inherit;
+  font-style: inherit;
+  list-style: inherit;
+  color: #B9262F;
+}
+.admission-request__wrapper {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.admission-request__wrapper a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .admission-request__wrapper a {
+    padding: 16px 14px;
+  }
+}
+.admission-request-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+  max-width: 360px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.admission-request__box {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.admission-request__box img {
+  margin-right: 30px;
+}
+.admission-request__box ul li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.admission-request__box ul li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-request__box ul li span:first-child {
+  display: block;
+  color: #B9262F;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.admission-request__box ul li span:nth-child(2) {
+  text-decoration: underline;
+}
+.admission-request__box ul li i, .admission-request__box ul li b {
+  display: block;
+  margin: 12px 0px;
+  font-weight: normal;
+}
+.admission-request__box ul li span:last-child {
+  font-weight: bold;
+}
+.admission-price__wrapper {
+  padding-bottom: 40px;
+}
+.admission-price__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.admission-price-title {
+  max-width: 360px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.admission-price-content {
+  max-width: 441px;
+}
+.admission-price-content ul li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+}
+.admission-price-content ul li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-price-content ul li span {
+  font-size: inherit;
+  line-height: inherit;
+  color: #B9262F;
+}
+.admission-price-content ul li:last-child {
+  margin-bottom: 0;
+}
+.admission-price-content ul li:nth-child(1) b, .admission-price-content ul li:nth-child(2) b {
+  display: block;
+  margin-bottom: 12px;
+}
+.admission-price-content ul li:nth-child(1) span, .admission-price-content ul li:nth-child(2) span {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.admission-price-content ul li:nth-child(1) span:last-child, .admission-price-content ul li:nth-child(2) span:last-child {
+  margin-bottom: 0px;
+}
+.admission-euro__wrapper {
+  padding-bottom: 36px;
+}
+.admission-euro__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.admission-euro__box ul p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 15px;
+}
+.admission-euro__box ul li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.admission-euro__box ul li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-euro__box ul li:last-child {
+  margin-bottom: 0px;
+}
+.admission-euro__box:last-child {
+  margin-bottom: 0px;
+}
+.admission-euro__box:last-child img {
+  margin-right: 20px;
+}
+.admission-euro-title {
+  max-width: 590px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+  margin: 0 auto 40px;
+}
+.admission-euro-content {
+  max-width: 466px;
+}
+.admission-euro-content p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+}
+.admission-education__wrapper {
+  padding-bottom: 40px;
+}
+.admission-education-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.admission-education__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.admission-education__box a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin: 15px auto 0px;
+}
+@media screen and (max-width: 767px) {
+  .admission-education__box a {
+    padding: 16px 14px;
+  }
+}
+.admission-education__box p {
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 15px;
+}
+.admission-education__box ul {
+  max-width: 466px;
+}
+.admission-education__box ul li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.admission-education__box ul li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.admission-education__box ul li:last-child {
+  margin-bottom: 0;
+}
+.admission-education__box:last-child {
+  margin-bottom: 0;
+}
+.admission-education__box:last-child img {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 767px) {
   .container {
     padding: 0px 30px;
@@ -961,6 +1491,127 @@ body {
   }
   .study-cards {
     display: none;
+  }
+
+  .admission-howto__box .about-aside-item {
+    display: none;
+  }
+  .admission-terms__box {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .admission-terms__box img {
+    max-width: 317px;
+    width: 100%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .admission-terms-content {
+    order: 2;
+  }
+  .admission-terms-content li:last-child {
+    margin-bottom: 20px;
+  }
+  .admission-terms-info {
+    order: 2;
+  }
+  .admission-contact {
+    display: none;
+  }
+  .admission-doc__wrapper {
+    padding-bottom: 30px;
+  }
+  .admission-doc-title {
+    max-width: 277px;
+    text-align: center;
+  }
+  .admission-doc-subtitle {
+    margin-bottom: 20px;
+  }
+  .admission-doc__box {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .admission-doc-photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    order: 1;
+  }
+  .admission-doc-photo img {
+    max-width: 143px;
+  }
+  .admission-doc-content {
+    order: 2;
+  }
+  .admission-doc-content p:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  .admission-doc-quotes {
+    padding: 40px 38px;
+  }
+  .admission-request__wrapper {
+    padding-bottom: 30px;
+  }
+  .admission-request-title {
+    margin-bottom: 20px;
+  }
+  .admission-request__box {
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  .admission-request__box img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .admission-price__wrapper {
+    padding-bottom: 30px;
+  }
+  .admission-price-title {
+    margin-bottom: 30px;
+  }
+  .admission-price__box {
+    flex-wrap: wrap;
+  }
+  .admission-price__box img {
+    margin: 0 auto 30px;
+  }
+  .admission-price-content {
+    order: 2;
+  }
+  .admission-euro__wrapper {
+    padding-bottom: 30px;
+  }
+  .admission-euro-title {
+    margin-bottom: 20px;
+  }
+  .admission-euro__box {
+    flex-wrap: wrap;
+  }
+  .admission-euro__box:last-child img {
+    margin-right: 0px;
+  }
+  .admission-euro__box img {
+    display: none;
+  }
+  .admission-euro__box .admission-euro--hideimg {
+    width: 100%;
+    margin: 20px 0 0;
+    display: block;
+  }
+  .admission-education-title {
+    margin-bottom: 20px;
+  }
+  .admission-education__box img:last-child {
+    display: none;
+  }
+  .admission-education__box:last-child img {
+    width: 100%;
+  }
+  .admission-education__box a {
+    margin-top: 5px;
   }
 }
 

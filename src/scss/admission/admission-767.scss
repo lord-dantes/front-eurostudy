@@ -1,0 +1,144 @@
+.admission{
+	&-howto{
+		&__box{
+			& .about-aside-item{
+				display: none;
+			}
+		}
+	}
+	&-terms{
+		&__box{
+			flex-wrap: wrap;
+			margin-bottom: 30px;
+			& img{
+				max-width: 317px;
+				width: 100%;
+				order: 1;
+				margin-bottom: 20px;
+			}
+		}
+		&-content{
+			order: 2;
+			& li:last-child{
+				margin-bottom: 20px;
+			}
+		}
+		&-info{
+			order: 2;
+		}
+	}
+	&-contact{
+		display: none;
+	}
+	&-doc{
+		&__wrapper{
+			padding-bottom: 30px;
+		}
+		&-title{
+			max-width: 277px;
+			text-align: center;
+		}
+		&-subtitle{
+			margin-bottom: 20px;
+		}
+		&__box{
+			flex-wrap: wrap;
+			margin-bottom: 30px;
+		}
+		&-photo{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			order: 1;
+			& img{
+				max-width: 143px;
+			}
+		}
+		&-content{
+			order: 2;
+			& p:nth-child(3){
+				margin-bottom: 20px;
+			}
+		}
+		&-quotes{
+			padding: 40px 38px;
+		}
+	}
+	&-request{
+		&__wrapper{
+			padding-bottom: 30px;
+		}
+		&-title{
+			margin-bottom: 20px;
+		}
+		&__box{
+			flex-wrap: wrap;
+			margin-bottom: 8px;
+			& img{
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	&-price{
+		&__wrapper{
+			padding-bottom: 30px;
+		}
+		&-title{
+			margin-bottom: 30px;
+		}
+		&__box{
+			flex-wrap: wrap;
+			& img{
+				margin:0 auto 30px;
+			}
+		}
+		&-content{
+			order: 2;
+		}
+	}
+	&-euro{
+		&__wrapper{
+			padding-bottom: 30px;
+		}
+		&-title{
+			margin-bottom: 20px;
+		}
+	}
+	&-euro__box{
+		flex-wrap: wrap;
+		&:last-child img{
+			margin-right: 0px;
+		}
+		& img{
+			display: none;
+		}
+		& .admission-euro--hideimg{
+			width: 100%;
+			margin:20px 0 0;
+			display: block;
+		}
+	}
+	&-education{
+		&-title{
+			margin-bottom: 20px;
+		}
+		&__box{
+			& img{
+				&:last-child{
+					display: none;
+				}
+			}
+			&:last-child{
+				& img{
+					width: 100%;
+				}
+			}
+			& a{
+				margin-top: 5px;
+			}
+		}
+	}
+}

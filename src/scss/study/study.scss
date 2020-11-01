@@ -29,20 +29,7 @@
 		max-width: 467px;
 	}
 	&-info{
-		padding: 40px 36px 36px 36px;
-		border-radius: 20px;
-		border: solid 2px $darkred;
-		font-style: italic;
-		font-weight: normal;
-		font-size: 14px;
-		line-height: 16px;
-		text-align: center;
-		color: $gray;
-		& span{
-			font-size: 12px;
-			line-height: 14px;
-			font-style: normal;
-		}
+		@include default-quotes;
 	}
 	/*  */
 	&-info{

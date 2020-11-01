@@ -4,3 +4,63 @@ $light2gray: #F6F6F6;
 
 $black: #353535;
 $darkred: #B9262F;
+
+@mixin admissionLink {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	background: $darkred;
+	border-radius: 5px;
+	padding: 16px 30px;
+	height: 51px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #fff;
+	@media screen and (max-width: 767px){
+		padding: 16px 14px;
+	}
+}
+@mixin default-Title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 20px;
+	color: $black;
+}
+@mixin admissionList {
+	padding-left: 23px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 125.3%;
+	color: $gray;
+	margin-bottom: 20px;
+	position: relative;
+	&::before{
+		content:"";
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		top: 5px;
+		left: 0;
+		background: $gray;
+	}
+}
+@mixin default-quotes{
+	padding: 40px 36px 36px 36px;
+	border-radius: 20px;
+	border: solid 2px $darkred;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: $gray;
+	& span{
+		font-size: 12px;
+		line-height: 14px;
+		font-style: normal;
+	}
+}
