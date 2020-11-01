@@ -1,0 +1,61 @@
+.study{
+	&__wrapper{
+		padding: 40px 0 30px;
+	}
+	&-content{
+		width: 100%;
+		max-width: unset;
+		& .contact-items{
+			max-width: unset;
+		}
+	}
+	&__box{
+		& .about-aside-item{
+			display: none;
+		}
+	}
+	&-card{
+		max-width: 218px;
+		margin:0 auto;
+	}
+	&-carousel--three{
+		display: block !important;
+	}
+	&-carousel, &-carousel--second, &-carousel--three{
+		& .owl-nav{
+			position: absolute;
+	    top: 35%;
+	    z-index: 100;
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+		}
+		& .owl-nav button:hover, & .owl-nav button:focus{
+			outline: 0;
+			background: transparent !important;
+		}
+		& .owl-dots{
+			margin-top: 15px;
+		}
+		& .owl-dots button:focus{
+			outline: 0;
+		}
+		& .owl-dots .owl-dot {
+			&.active span{
+				background: $darkred;
+			}
+			& span{
+				width: 6px;
+				height: 6px;
+				margin: 5px;
+				background: #C4C4C4;
+			}
+		}
+		& .owl-stage{
+			margin: 0px;
+		}
+	}
+	&-cards{
+		display: none;
+	}
+}

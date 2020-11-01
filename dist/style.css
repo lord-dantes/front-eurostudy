@@ -622,6 +622,7 @@ body {
 
 .study {
   /*  */
+  /*  */
 }
 .study__wrapper {
   padding: 40px 0px;
@@ -722,11 +723,33 @@ body {
   background: #B9262F;
   border-radius: 60px;
 }
+.study-carousel--three {
+  display: none !important;
+}
 .study-carousel, .study-carousel--second, .study-carousel--three {
   margin-bottom: 30px;
 }
 .study-carousel .owl-stage, .study-carousel--second .owl-stage {
   margin: 0 -15px;
+}
+.study-items .contact-item {
+  width: 100%;
+  max-width: 231px;
+}
+.study-items .contact-item .contact-info {
+  min-height: 135px;
+}
+.study-items .contact-item .contact-info a {
+  color: #6E6E6E;
+}
+.study-items .contact-item:first-child .contact-info a, .study-items .contact-item:last-child .contact-info a {
+  color: #B9262F;
+}
+.study-contact__wrapper {
+  padding: 40px 0px;
+}
+.study-contact__wrapper .about-aside-item {
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -884,6 +907,60 @@ body {
   p.about-photo {
     max-width: 280px;
     margin: 20px auto 30px;
+  }
+
+  .study__wrapper {
+    padding: 40px 0 30px;
+  }
+  .study-content {
+    width: 100%;
+    max-width: unset;
+  }
+  .study-content .contact-items {
+    max-width: unset;
+  }
+  .study__box .about-aside-item {
+    display: none;
+  }
+  .study-card {
+    max-width: 218px;
+    margin: 0 auto;
+  }
+  .study-carousel--three {
+    display: block !important;
+  }
+  .study-carousel .owl-nav, .study-carousel--second .owl-nav, .study-carousel--three .owl-nav {
+    position: absolute;
+    top: 35%;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .study-carousel .owl-nav button:hover, .study-carousel .owl-nav button:focus, .study-carousel--second .owl-nav button:hover, .study-carousel--second .owl-nav button:focus, .study-carousel--three .owl-nav button:hover, .study-carousel--three .owl-nav button:focus {
+    outline: 0;
+    background: transparent !important;
+  }
+  .study-carousel .owl-dots, .study-carousel--second .owl-dots, .study-carousel--three .owl-dots {
+    margin-top: 15px;
+  }
+  .study-carousel .owl-dots button:focus, .study-carousel--second .owl-dots button:focus, .study-carousel--three .owl-dots button:focus {
+    outline: 0;
+  }
+  .study-carousel .owl-dots .owl-dot.active span, .study-carousel--second .owl-dots .owl-dot.active span, .study-carousel--three .owl-dots .owl-dot.active span {
+    background: #B9262F;
+  }
+  .study-carousel .owl-dots .owl-dot span, .study-carousel--second .owl-dots .owl-dot span, .study-carousel--three .owl-dots .owl-dot span {
+    width: 6px;
+    height: 6px;
+    margin: 5px;
+    background: #C4C4C4;
+  }
+  .study-carousel .owl-stage, .study-carousel--second .owl-stage, .study-carousel--three .owl-stage {
+    margin: 0px;
+  }
+  .study-cards {
+    display: none;
   }
 }
 

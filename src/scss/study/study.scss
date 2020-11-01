@@ -101,10 +101,35 @@
 			}
 		}
 	}
+	&-carousel--three{
+		display: none !important;
+	}
 	&-carousel, &-carousel--second, &-carousel--three{
 		margin-bottom: 30px;
 	}
 	&-carousel .owl-stage, &-carousel--second .owl-stage{
 		margin:0 -15px;
+	}
+	/*  */
+	&-items{
+		& .contact-item{
+			width: 100%;
+			max-width: 231px;
+			& .contact-info{
+				min-height: 135px;
+			}
+			& .contact-info a{
+				color: $gray;
+			}
+			&:first-child .contact-info a, &:last-child .contact-info a{
+				color: $darkred;
+			}
+		}
+	}
+	&-contact__wrapper{
+		padding:40px 0px;
+		& .about-aside-item{
+			width: 100%;
+		}
 	}
 }
