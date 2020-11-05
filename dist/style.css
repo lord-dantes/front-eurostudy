@@ -1202,6 +1202,9 @@ body {
   color: #6E6E6E;
   margin-bottom: 20px;
 }
+.admission-euro--hideimg {
+  display: none;
+}
 .admission-education__wrapper {
   padding-bottom: 40px;
 }
