@@ -4,6 +4,8 @@
 @import 'about/about';
 @import 'study/study';
 @import 'admission/admission';
+@import 'transfer-university/transfer-university';
+@import 'instituts/instituts';
 // media
 @media screen and (max-width: 767px){
 	@import 'addons/base-767';
@@ -12,4 +14,6 @@
 	@import 'about/about-767';
 	@import 'study/study-767';
 	@import 'admission/admission-767';
+	@import 'transfer-university/transfer-university-767';
+	@import 'instituts/instituts-767';
 }

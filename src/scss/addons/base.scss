@@ -233,3 +233,46 @@ body {
 		}
 	}
 }
+// aside instituts filter
+.aside-instituts-filter{
+	min-width: 218px;
+	& p{
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		color: $black;
+		margin-bottom: 10px;
+	}
+	& label{
+		position: relative;
+		margin-bottom: 15px !important;
+		& img{
+	    content: "";
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    width: 20px;
+	    height: 20px;
+	    z-index: 0;
+	    margin: auto;
+		}
+	}
+	& select{
+		width: 100%;
+		background: #fff;
+		padding: 9px 10px;
+		border: 1px solid #E5E5E5;
+		font-weight: normal;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: center;
+		color: $black;
+	 	-webkit-appearance: none;
+	 	/* background: url('../../../dist/img/icons/arrowFilter.svg') no-repeat right #fff; */
+		background-position-x: 244px;
+		&:focus{
+			outline: 0;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.transfer-university{
+	&-box .about-aside{
+		display: none;
+	}
+	&-info{
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+		& a{
+			max-width: 315px;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+}

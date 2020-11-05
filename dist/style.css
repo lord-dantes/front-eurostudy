@@ -237,6 +237,49 @@ body {
   margin-left: 8px;
 }
 
+.aside-instituts-filter {
+  min-width: 218px;
+}
+.aside-instituts-filter p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #353535;
+  margin-bottom: 10px;
+}
+.aside-instituts-filter label {
+  position: relative;
+  margin-bottom: 15px !important;
+}
+.aside-instituts-filter label img {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 0;
+  margin: auto;
+}
+.aside-instituts-filter select {
+  width: 100%;
+  background: #fff;
+  padding: 9px 10px;
+  border: 1px solid #E5E5E5;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #353535;
+  -webkit-appearance: none;
+  /* background: url('../../../dist/img/icons/arrowFilter.svg') no-repeat right #fff; */
+  background-position-x: 244px;
+}
+.aside-instituts-filter select:focus {
+  outline: 0;
+}
+
 .aboutus__box {
   display: flex;
   justify-content: space-between;
@@ -1285,6 +1328,177 @@ body {
   margin-bottom: 20px;
 }
 
+.transfer-university__wrapper {
+  padding: 40px 0;
+}
+.transfer-university__wrapper h3 {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #353535;
+}
+.transfer-university-title {
+  margin-bottom: 30px;
+}
+.transfer-university-box {
+  position: relative;
+}
+.transfer-university-box ul:not(.transfer-university-items--first):not(.transfer-university-items--two) {
+  max-width: 333px;
+  margin-bottom: 30px;
+}
+.transfer-university-box ul:not(.transfer-university-items--first) li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.transfer-university-box ul:not(.transfer-university-items--first) li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.transfer-university-content {
+  max-width: 475px;
+}
+.transfer-university-content p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  color: #6E6E6E;
+}
+.transfer-university-items--first {
+  margin-top: 30px;
+}
+.transfer-university-items--two {
+  margin-bottom: 30px;
+}
+.transfer-university-items--three {
+  margin: 20px 30px 30px 0px;
+}
+.transfer-university-items--first li {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+  margin-bottom: 10px;
+}
+.transfer-university-items--first li b span {
+  color: #B9262F;
+}
+.transfer-university-items--three li {
+  padding-left: 23px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125.3%;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.transfer-university-items--three li::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 5px;
+  left: 0;
+  background: #6E6E6E;
+}
+.transfer-university-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transfer-university-info a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #B9262F;
+  border-radius: 5px;
+  padding: 16px 30px;
+  height: 51px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .transfer-university-info a {
+    padding: 16px 14px;
+  }
+}
+.transfer-university-info a:last-child {
+  color: #6E6E6E;
+  border: 2px solid #6E6E6E;
+  background: transparent;
+}
+
+.instituts__wrapper {
+  padding: 40px 0px;
+}
+.instituts-box {
+  position: relative;
+  margin-bottom: 40px;
+}
+.instituts-content {
+  max-width: 466px;
+}
+.instituts-content h2 {
+  margin-bottom: 30px;
+}
+.instituts-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.instituts-item {
+  max-width: 94px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.instituts-item:nth-child(4n) {
+  margin-right: 0px;
+}
+.instituts-item a {
+  text-decoration: none;
+}
+.instituts-item img {
+  max-width: 94px;
+  width: 100%;
+  height: 94px;
+  object-fit: cover;
+  background: darkred;
+  margin-bottom: 15px;
+}
+.instituts-item p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #353535;
+}
+.instituts-info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+}
+
 @media screen and (max-width: 767px) {
   .container {
     padding: 0px 30px;
@@ -1615,6 +1829,29 @@ body {
   }
   .admission-education__box a {
     margin-top: 5px;
+  }
+
+  .transfer-university-box .about-aside {
+    display: none;
+  }
+  .transfer-university-info {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .transfer-university-info a {
+    max-width: 315px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .instituts-box .about-aside-item {
+    display: none;
+  }
+  .instituts-content {
+    max-width: unset;
+  }
+  .instituts-item:nth-child(4n) {
+    margin-right: 30px;
   }
 }
 

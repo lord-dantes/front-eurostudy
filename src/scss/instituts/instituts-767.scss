@@ -1,0 +1,13 @@
+.instituts{
+	&-box{
+		.about-aside-item{
+			display: none;
+		}
+	}
+	&-content{
+		max-width: unset;
+	}
+	&-item:nth-child(4n){
+		margin-right: 30px;
+	}
+}
