@@ -1,0 +1,60 @@
+.cost-service{
+	&__wrapper{
+		padding: 40px 0px 30px;
+		& h2{
+			@include default-Title;
+		}
+	}
+	&__box{
+		display: flex;
+		justify-content: space-between;
+	}
+	&-items{
+		max-width:466px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&-item{
+		max-width: 218px;
+		margin-bottom: 30px;
+		height: 282px;
+		display: flex;
+		flex-direction: column;
+		& img{
+			margin-bottom: 15px;
+		}
+		&-title{
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: $gray;
+			margin-bottom: 20px;
+		}
+		&-info{
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: $gray;
+			margin-bottom: auto;
+		}
+		&-price{
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 16px;
+			color: $darkred;
+			margin-bottom: 20px;
+		}
+		& .schools-link--second{
+			max-width: 110px;
+			margin-right: auto;
+		}
+	}
+	&-contact__box{
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		color: $gray;
+		margin: 0px;
+	}
+}

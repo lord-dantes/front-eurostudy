@@ -1,0 +1,117 @@
+.schools{
+	&__box{
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		& .about-aside-item{
+			width: 100%;
+		}
+	}
+	&__wrapper{
+		padding:40px 0px;
+		& h2{
+			@include default-Title;
+		}
+	}
+	&-info{
+		max-width: 437px;
+	}
+	&-info p{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: $gray;
+		margin-bottom: 10px;
+		&:last-child{
+			margin-bottom: 30px;
+		}
+	}
+	&-item{
+		max-width: 466px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		border: 1px solid $lightgray;
+		padding: 15px 15px 15px 12px;
+		margin-bottom: 20px;
+		&__box{
+			width: 100%;
+		}
+		&__logo{
+			margin-right: 30px;
+		}
+		&-title{
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 16px;
+			text-decoration-line: underline;
+			color: $black;
+			max-width: 270px;
+			margin-bottom: 20px;
+		}
+		&s{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+		&-actions{
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+	}
+	&-directions li{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 10px;
+		color: $gray;
+		&:last-child{
+			margin-bottom: 20px;
+		}
+	}
+	&-direction-title{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 20px;
+		color: $gray;
+	}
+	&-price{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 30px;
+		color: $gray;
+	}
+	&-link{
+		border: 2px solid $gray;
+		box-sizing: border-box;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		color: $gray;
+		padding: 8px 18px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: auto;
+		text-decoration: none;
+		&--second{
+			padding: 10px 18px;
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #B9262F;
+			border-radius: 5px;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 16px;
+			color: #FFFFFF;
+		}
+	}
+}

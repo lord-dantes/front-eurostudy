@@ -1,0 +1,31 @@
+.schools{
+	&__wrapper{
+		& .about-aside-item{
+			display: none;
+		}
+	}
+	&-items{
+		align-items: center;
+
+	}
+	&-item{
+		max-width: 315px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+		&-title{
+			margin:0 auto 20px;
+		}
+		&-actions{
+			justify-content: center;
+			align-items: center;
+		}
+		&__logo{
+			margin:0 auto 20px;
+		}
+	}
+	&-link{
+		padding: 8px;
+	}
+}

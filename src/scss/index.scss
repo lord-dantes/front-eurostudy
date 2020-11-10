@@ -6,6 +6,8 @@
 @import 'admission/admission';
 @import 'transfer-university/transfer-university';
 @import 'instituts/instituts';
+@import 'schools/schools';
+@import 'cost-service/cost-service';
 // media
 @media screen and (max-width: 767px){
 	@import 'addons/base-767';
@@ -16,4 +18,6 @@
 	@import 'admission/admission-767';
 	@import 'transfer-university/transfer-university-767';
 	@import 'instituts/instituts-767';
+	@import 'schools/schools-767';
+	@import 'cost-service/cost-service-767';
 }

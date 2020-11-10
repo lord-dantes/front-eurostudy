@@ -273,7 +273,7 @@ body {
   text-align: center;
   color: #353535;
   -webkit-appearance: none;
-  /* background: url('../../../dist/img/icons/arrowFilter.svg') no-repeat right #fff; */
+  /* background: url('./img/icons/arrowFilter.svg') no-repeat right #fff; */
   background-position-x: 244px;
 }
 .aside-instituts-filter select:focus {
@@ -1483,7 +1483,7 @@ body {
   width: 100%;
   height: 94px;
   object-fit: cover;
-  background: darkred;
+  background: transparent;
   margin-bottom: 15px;
 }
 .instituts-item p {
@@ -1497,6 +1497,189 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #6E6E6E;
+}
+
+.schools__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.schools__box .about-aside-item {
+  width: 100%;
+}
+.schools__wrapper {
+  padding: 40px 0px;
+}
+.schools__wrapper h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+}
+.schools-info {
+  max-width: 437px;
+}
+.schools-info p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+  margin-bottom: 10px;
+}
+.schools-info p:last-child {
+  margin-bottom: 30px;
+}
+.schools-item {
+  max-width: 466px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #E5E5E5;
+  padding: 15px 15px 15px 12px;
+  margin-bottom: 20px;
+}
+.schools-item__box {
+  width: 100%;
+}
+.schools-item__logo {
+  margin-right: 30px;
+}
+.schools-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #353535;
+  max-width: 270px;
+  margin-bottom: 20px;
+}
+.schools-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schools-item-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.schools-directions li {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 10px;
+  color: #6E6E6E;
+}
+.schools-directions li:last-child {
+  margin-bottom: 20px;
+}
+.schools-direction-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  color: #6E6E6E;
+}
+.schools-price {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 30px;
+  color: #6E6E6E;
+}
+.schools-link {
+  border: 2px solid #6E6E6E;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  text-decoration: none;
+}
+.schools-link--second {
+  padding: 10px 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #B9262F;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.cost-service__wrapper {
+  padding: 40px 0px 30px;
+}
+.cost-service__wrapper h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #353535;
+}
+.cost-service__box {
+  display: flex;
+  justify-content: space-between;
+}
+.cost-service-items {
+  max-width: 466px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cost-service-item {
+  max-width: 218px;
+  margin-bottom: 30px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+}
+.cost-service-item img {
+  margin-bottom: 15px;
+}
+.cost-service-item-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+}
+.cost-service-item-info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6E6E6E;
+  margin-bottom: auto;
+}
+.cost-service-item-price {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B9262F;
+  margin-bottom: 20px;
+}
+.cost-service-item .schools-link--second {
+  max-width: 110px;
+  margin-right: auto;
+}
+.cost-service-contact__box {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6E6E6E;
+  margin: 0px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1852,6 +2035,37 @@ body {
   }
   .instituts-item:nth-child(4n) {
     margin-right: 30px;
+  }
+
+  .schools__wrapper .about-aside-item {
+    display: none;
+  }
+  .schools-items {
+    align-items: center;
+  }
+  .schools-item {
+    max-width: 315px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .schools-item-title {
+    margin: 0 auto 20px;
+  }
+  .schools-item-actions {
+    justify-content: center;
+    align-items: center;
+  }
+  .schools-item__logo {
+    margin: 0 auto 20px;
+  }
+  .schools-link {
+    padding: 8px;
+  }
+
+  .cost-service-aside {
+    display: none;
   }
 }
 
