@@ -94,6 +94,9 @@ body {
 			font-size: 18px;
 			line-height: 21px;
 			color: #FFFFFF;
+			& img{
+				transform: rotate(180deg);
+			}
 		}
 	}
 	>ul {
@@ -143,11 +146,11 @@ body {
 .nav-dropdown--active {
 	max-height: 300px;
 }
-.nav-current--active {
+#nav .nav-current--active {
 	&.nav-current a {
 		border-color: transparent !important;
 		img {
-			transform: rotate(180deg);
+			transform: rotate(0deg);
 		}
 	}
 }

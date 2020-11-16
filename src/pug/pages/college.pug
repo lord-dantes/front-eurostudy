@@ -1,0 +1,47 @@
+extends /addons/base.pug
+block content
+	+titlePage('Техникумы в Польше')
+	section.college__wrapper
+		.container
+			.college__box
+				.college-content
+					h2 Техникумы в Польше
+					.college-count
+						p Показ всех 9 элементов
+						select
+							option Все
+							option 1
+							option 2
+					.college-items.schools-items
+						.schools-item
+							.schools-item__logo
+								img(src="img/schools-item1.jpg")
+							.schools-item__box
+								p.schools-item-title Агротехнический Техникум в Радоме
+								p.schools-direction-title Специальности:
+								ul.schools-directions
+									li Альтернативные источники энергии
+									li Ветеринария
+									li Механик сельхозмашин и агротроник
+									li Ландшафний дизайн
+									li Организация питания, гастрономические услуги
+								.schools-item-actions
+									a(href="" class="schools-link") Заявка на поступление
+									a(href="" class="schools-link--second") Подробнее
+						.schools-item
+							.schools-item__logo
+								img(src="img/schools-item2.jpg")
+							.schools-item__box
+								p.schools-item-title Механический техникум им. Клиберга в Демблине
+								p.schools-direction-title Специальности:
+								ul.schools-directions
+									li Информатика
+									li Авиационный механик
+									li Механик
+									li Электрик
+									li Техник инженерных сооружений на железной дороге (под патронатом польской железной дороги)
+								.schools-item-actions
+									a(href="" class="schools-link") Заявка на поступление
+									a(href="" class="schools-link--second") Подробнее
+				.college-aside
+					include ../addons/aside-instituts-filter.pug

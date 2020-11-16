@@ -8,6 +8,8 @@
 @import 'instituts/instituts';
 @import 'schools/schools';
 @import 'cost-service/cost-service';
+@import 'college/college';
+@import 'collegium/collegium';
 // media
 @media screen and (max-width: 767px){
 	@import 'addons/base-767';
@@ -20,4 +22,6 @@
 	@import 'instituts/instituts-767';
 	@import 'schools/schools-767';
 	@import 'cost-service/cost-service-767';
+	@import 'college/college-767';
+	@import 'collegium/collegium-767';
 }

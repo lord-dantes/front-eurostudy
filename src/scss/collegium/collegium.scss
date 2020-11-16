@@ -1,0 +1,28 @@
+.collegium{
+	&-items{
+		& .schools-item{
+			position: relative;
+			& span{
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 16px;
+				padding: 15px;
+				color: $gray;
+			}
+			& .schools-directions{
+				display: flex;
+				flex-wrap: wrap;
+				& li{
+					width: 100%;
+				}
+				& li:nth-last-child(n+5), li:nth-last-child(n+5) ~ li {
+				  width: 100%;
+				  max-width: 155px;
+				}
+			}
+		}
+	}
+}

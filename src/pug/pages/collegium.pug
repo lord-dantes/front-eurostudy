@@ -1,0 +1,53 @@
+extends /addons/base.pug
+block content
+	+titlePage('ВУЗы в Варшаве')
+	section.college__wrapper
+		.container
+			.college__box
+				.college-content
+					h2 ВУЗы в Варшаве
+					.college-count
+						p Показ всех 24 элементов
+						select
+							option Все
+							option 1
+							option 2
+					.collegium-items.schools-items
+						.schools-item
+							span Частный
+							.schools-item__logo
+								img(src="img/schools-item1.jpg")
+							.schools-item__box
+								p.schools-item-title Collegium Civitas
+								p.schools-direction-title Популярные #[br] факультеты:
+								ul.schools-directions
+									li Журналистика
+									li Маркетинг, управление
+									li Психология
+									li Дипломатия
+									li Международные отношения
+									li Общество, образ жизни, искусство
+									li Социология, культура
+									li Аналитика информации и ее безопасность
+								p.schools-price от 5 900 zł в год
+								.schools-item-actions
+									a(href="" class="schools-link") Заявка на поступление
+									a(href="" class="schools-link--second") Подробнее
+						.schools-item
+							span Частный
+							.schools-item__logo
+								img(src="img/schools-item1.jpg")
+							.schools-item__box
+								p.schools-item-title Collegium Humanum — Варшавский Университет Менеджмента
+								p.schools-direction-title Популярные #[br] факультеты:
+								ul.schools-directions
+									li e-Marketing и e-Commerce
+									li Маркетинг
+									li Социальные медиа и цифровой маркетинг
+									li Управление персоналом
+								p.schools-price 5400 zł в год
+								.schools-item-actions
+									a(href="" class="schools-link") Заявка на поступление
+									a(href="" class="schools-link--second") Подробнее
+				.college-aside
+					include ../addons/aside-instituts-filter.pug
